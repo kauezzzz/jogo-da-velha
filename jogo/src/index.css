@@ -1,3 +1,4 @@
+/* Estilos globais para centralizar todo o conteúdo */
 body,
 html {
   height: 100%;
@@ -10,11 +11,12 @@ html {
   text-align: center;
 }
 
+/* Estilo para cada quadrado */
 .square {
   width: 100px;
   height: 100px;
   background-color: #ddd;
-  border: 1x solid #ccc;
+  border: 1px solid #ccc;
   font-size: 32px;
   font-weight: bold;
   text-align: center;
@@ -22,10 +24,12 @@ html {
   cursor: pointer;
 }
 
+/* Estilo para o vencedor */
 .winner {
   background-color: #ffcc00;
 }
 
+/* Estilo para o status do jogo */
 .status {
   margin: 20px 0;
   text-align: center;
@@ -33,6 +37,7 @@ html {
   color: #333;
 }
 
+/* Estilo para o botão de reiniciar */
 .reset-button {
   margin-top: 20px;
   padding: 10px 20px;
@@ -44,6 +49,7 @@ html {
   cursor: pointer;
 }
 
-reset-button:hover {
+/* Estilo para o botão de reiniciar no hover */
+.reset-button:hover {
   background-color: #0056b3;
 }
