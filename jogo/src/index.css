@@ -6,17 +6,21 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f4f4f4;
+  background-image: url(foto.png);
   font-family: Helvetica;
   text-align: center;
+}
+
+body {
+  background: rgba(255, 255, 255, 0);
 }
 
 /* Estilo para cada quadrado */
 .square {
   width: 100px;
   height: 100px;
-  background-color: #ddd;
-  border: 1px solid #ccc;
+  background-color: #F2F8F0;
+  border: 1px solid #D8E3BE;
   font-size: 32px;
   font-weight: bold;
   text-align: center;
@@ -26,7 +30,7 @@ html {
 
 /* Estilo para o vencedor */
 .winner {
-  background-color: #ffcc00;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 /* Estilo para o status do jogo */
@@ -42,8 +46,8 @@ html {
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #b3e8a2;
+  color: #2c840e;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -51,5 +55,5 @@ html {
 
 /* Estilo para o botão de reiniciar no hover */
 .reset-button:hover {
-  background-color: #0056b3;
+  background-color: #D8E3BE;
 }
