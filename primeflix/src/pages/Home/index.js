@@ -110,7 +110,7 @@ function Home() {
             <div className={styles.title}>
                 <div className={styles.grid_title}>
                     <h1>Bem-Vindo(a).</h1>
-                    <p>Milhôes de Filmes, Séries e Pessoas para Descobrir. Explore já.</p>
+                    <p>Milhões de Filmes, Séries e Pessoas para Descobrir. Explore já.</p>
                     <form onSubmit={handleSubmit}>
                         <input 
                         type='search'
